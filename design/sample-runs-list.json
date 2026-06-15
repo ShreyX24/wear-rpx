@@ -1,0 +1,304 @@
+﻿{
+    "active":  {
+                   "26277cc4-345f-43ab-bd55-8b88ff7af936":  {
+                                                                "agentic_summary":  {
+                                                                                        "checkpoints_reached":  [
+                                                                                                                    "launch_visible",
+                                                                                                                    "main_menu",
+                                                                                                                    "benchmark_running",
+                                                                                                                    "results_screen"
+                                                                                                                ],
+                                                                                        "max_ticks":  80,
+                                                                                        "model":  "claude-sonnet-4-6",
+                                                                                        "total_cost_usd":  0.0,
+                                                                                        "total_ticks":  8,
+                                                                                        "total_tokens":  31750
+                                                                                    },
+                                                                "automation_mode":  "agentic",
+                                                                "base_url":  "http://localhost:18004",
+                                                                "campaign_id":  null,
+                                                                "campaign_name":  null,
+                                                                "claude_model":  "claude-sonnet-4-6",
+                                                                "completed_at":  null,
+                                                                "created_at":  "2026-06-16T00:38:25.313174",
+                                                                "current_phase":  "performance",
+                                                                "current_phase_detail":  "Perf Run 2/2",
+                                                                "end_step":  null,
+                                                                "error_message":  null,
+                                                                "estimated_duration_seconds":  474,
+                                                                "folder_name":  "test-wear_ZEL-X2__2026-06-16_003827_1G-1080p-H_14900HX",
+                                                                "game_name":  "Black Myth: Wukong",
+                                                                "iterations":  2,
+                                                                "max_ticks":  80,
+                                                                "mode_resolved":  "agentic_vllm",
+                                                                "perf_scores":  {
+                                                                                    "avg":  59.0,
+                                                                                    "fps_values":  [
+                                                                                                       59.0
+                                                                                                   ],
+                                                                                    "median":  59.0,
+                                                                                    "metric_type":  "fps",
+                                                                                    "run_count":  1,
+                                                                                    "variance_pct":  0.0
+                                                                                },
+                                                                "progress":  {
+                                                                                 "current_iteration":  2,
+                                                                                 "current_step":  0,
+                                                                                 "steps":  [
+
+                                                                                           ],
+                                                                                 "total_iterations":  2,
+                                                                                 "total_steps":  0
+                                                                             },
+                                                                "provider":  "vllm",
+                                                                "quality":  "high",
+                                                                "quick_mode":  null,
+                                                                "resolution":  "1080p",
+                                                                "results":  null,
+                                                                "run_id":  "26277cc4-345f-43ab-bd55-8b88ff7af936",
+                                                                "run_name":  "test-wear",
+                                                                "start_step":  null,
+                                                                "started_at":  "2026-06-16T00:38:27.401602",
+                                                                "status":  "running",
+                                                                "sut_device_id":  "sut_01KV6AVPET20HVVNS2Q3HNJ326",
+                                                                "sut_display_name":  "ZEL-X2",
+                                                                "sut_info":  {
+                                                                                 "bios":  {
+                                                                                              "name":  "C1.00",
+                                                                                              "version":  "C1.00"
+                                                                                          },
+                                                                                 "cpu":  {
+                                                                                             "brand_string":  "Intel Core i9-14900HX"
+                                                                                         },
+                                                                                 "device_id":  "sut_ZEL-X2_0000d056",
+                                                                                 "gpu":  {
+                                                                                             "name":  "NVIDIA GeForce RTX 4080 Laptop GPU"
+                                                                                         },
+                                                                                 "hostname":  "ZEL-X2",
+                                                                                 "os":  {
+                                                                                            "build":  "10.0.26200",
+                                                                                            "name":  "Windows",
+                                                                                            "release":  "",
+                                                                                            "version":  "10.0.26200"
+                                                                                        },
+                                                                                 "ram":  {
+                                                                                             "total_gb":  32
+                                                                                         },
+                                                                                 "screen":  {
+                                                                                                "height":  1600,
+                                                                                                "width":  2560
+                                                                                            }
+                                                                             },
+                                                                "sut_ip":  "192.168.0.108",
+                                                                "termination_reason":  null,
+                                                                "token_budget":  500000,
+                                                                "total_paused_seconds":  0.0,
+                                                                "tracing_agents":  null,
+                                                                "tracing_mode":  "isolated",
+                                                                "variant":  null
+                                                            }
+               },
+    "history":  [
+                    {
+                        "agentic_summary":  {
+                                                "checkpoints_reached":  [
+                                                                            "launch_visible",
+                                                                            "main_menu"
+                                                                        ],
+                                                "max_ticks":  80,
+                                                "model":  "claude-sonnet-4-6",
+                                                "termination_reason":  "menu_navigation_timeout",
+                                                "total_cost_usd":  0.0,
+                                                "total_ticks":  18,
+                                                "total_tokens":  84154
+                                            },
+                        "automation_mode":  "agentic",
+                        "base_url":  null,
+                        "campaign_id":  null,
+                        "campaign_name":  null,
+                        "claude_model":  "claude-sonnet-4-6",
+                        "completed_at":  "2026-06-16T00:23:07.322541",
+                        "created_at":  "2026-06-16T00:14:24.608425",
+                        "current_phase":  null,
+                        "current_phase_detail":  null,
+                        "end_step":  null,
+                        "error_message":  null,
+                        "estimated_duration_seconds":  null,
+                        "folder_name":  "wear-test_ZEL-X2__2026-06-16_001424_1G-1080p-H_14900HX",
+                        "game_name":  "Black Myth: Wukong",
+                        "iterations":  1,
+                        "max_ticks":  80,
+                        "mode_resolved":  null,
+                        "progress":  {
+                                         "current_iteration":  0,
+                                         "current_step":  0,
+                                         "steps":  [
+
+                                                   ],
+                                         "total_iterations":  1,
+                                         "total_steps":  0
+                                     },
+                        "provider":  null,
+                        "quality":  "high",
+                        "quick_mode":  "full",
+                        "resolution":  "1080p",
+                        "results":  {
+                                        "error_logs":  [
+
+                                                       ],
+                                        "performance_metrics":  {
+
+                                                                },
+                                        "run_directory":  "D:\\Code\\Raptor-X-v2\\rpx-core\\logs\\runs\\wear-test_ZEL-X2__2026-06-16_001424_1G-1080p-H_14900HX",
+                                        "success_rate":  0.0,
+                                        "successful_runs":  0,
+                                        "total_iterations":  1
+                                    },
+                        "run_id":  "9dbea601-1517-42eb-ae53-6a65643dfae6",
+                        "run_name":  null,
+                        "start_step":  null,
+                        "started_at":  "2026-06-16T00:14:24.608425",
+                        "status":  "failed",
+                        "sut_device_id":  "sut_ZEL-X2_0000d056",
+                        "sut_display_name":  null,
+                        "sut_info":  {
+                                         "bios":  {
+                                                      "name":  "C1.00",
+                                                      "version":  "C1.00"
+                                                  },
+                                         "cpu":  {
+                                                     "brand_string":  "Intel Core i9-14900HX"
+                                                 },
+                                         "device_id":  "sut_ZEL-X2_0000d056",
+                                         "gpu":  {
+                                                     "name":  "NVIDIA GeForce RTX 4080 Laptop GPU"
+                                                 },
+                                         "hostname":  "ZEL-X2",
+                                         "os":  {
+                                                    "build":  "10.0.26200",
+                                                    "name":  "Windows",
+                                                    "release":  "",
+                                                    "version":  "10.0.26200"
+                                                },
+                                         "ram":  {
+                                                     "total_gb":  32
+                                                 },
+                                         "screen":  {
+                                                        "height":  1600,
+                                                        "width":  2560
+                                                    }
+                                     },
+                        "sut_ip":  "192.168.0.108",
+                        "termination_reason":  "menu_navigation_timeout",
+                        "token_budget":  null,
+                        "total_paused_seconds":  0.0,
+                        "tracing_agents":  null,
+                        "tracing_mode":  "isolated",
+                        "variant":  null
+                    },
+                    {
+                        "agentic_summary":  {
+                                                "checkpoints_reached":  [
+                                                                            "launch_visible",
+                                                                            "main_menu"
+                                                                        ],
+                                                "max_ticks":  80,
+                                                "model":  "claude-sonnet-4-6",
+                                                "termination_reason":  "cancelled",
+                                                "total_cost_usd":  0.0,
+                                                "total_ticks":  8,
+                                                "total_tokens":  25552
+                                            },
+                        "automation_mode":  "agentic",
+                        "base_url":  null,
+                        "campaign_id":  null,
+                        "campaign_name":  null,
+                        "claude_model":  "claude-sonnet-4-6",
+                        "completed_at":  "2026-06-15T22:49:14.481471",
+                        "created_at":  "2026-06-15T22:44:54.266562",
+                        "current_phase":  null,
+                        "current_phase_detail":  null,
+                        "end_step":  null,
+                        "error_message":  null,
+                        "estimated_duration_seconds":  null,
+                        "folder_name":  "test_ZEL-X2__2026-06-15_224454_1G-1080p-H_14900HX",
+                        "game_name":  "Black Myth: Wukong",
+                        "iterations":  1,
+                        "max_ticks":  80,
+                        "mode_resolved":  null,
+                        "progress":  {
+                                         "current_iteration":  0,
+                                         "current_step":  0,
+                                         "steps":  [
+
+                                                   ],
+                                         "total_iterations":  1,
+                                         "total_steps":  0
+                                     },
+                        "provider":  null,
+                        "quality":  "high",
+                        "quick_mode":  "full",
+                        "resolution":  "1080p",
+                        "results":  {
+                                        "error_logs":  [
+
+                                                       ],
+                                        "performance_metrics":  {
+
+                                                                },
+                                        "run_directory":  "D:\\Code\\Raptor-X-v2\\rpx-core\\logs\\runs\\test_ZEL-X2__2026-06-15_224454_1G-1080p-H_14900HX",
+                                        "success_rate":  0.0,
+                                        "successful_runs":  0,
+                                        "total_iterations":  1
+                                    },
+                        "run_id":  "5390c93a-61d0-4e7c-97a3-9dc1cbcd418f",
+                        "run_name":  null,
+                        "start_step":  null,
+                        "started_at":  "2026-06-15T22:44:54.266562",
+                        "status":  "stopped",
+                        "sut_device_id":  "sut_ZEL-X2_0000d056",
+                        "sut_display_name":  null,
+                        "sut_info":  {
+                                         "bios":  {
+                                                      "name":  "C1.00",
+                                                      "version":  "C1.00"
+                                                  },
+                                         "cpu":  {
+                                                     "brand_string":  "Intel Core i9-14900HX"
+                                                 },
+                                         "device_id":  "sut_ZEL-X2_0000d056",
+                                         "gpu":  {
+                                                     "name":  "NVIDIA GeForce RTX 4080 Laptop GPU"
+                                                 },
+                                         "hostname":  "ZEL-X2",
+                                         "os":  {
+                                                    "build":  "10.0.26200",
+                                                    "name":  "Windows",
+                                                    "release":  "",
+                                                    "version":  "10.0.26200"
+                                                },
+                                         "ram":  {
+                                                     "total_gb":  32
+                                                 },
+                                         "screen":  {
+                                                        "height":  1600,
+                                                        "width":  2560
+                                                    }
+                                     },
+                        "sut_ip":  "192.168.0.108",
+                        "termination_reason":  "cancelled",
+                        "token_budget":  null,
+                        "total_paused_seconds":  0.0,
+                        "tracing_agents":  null,
+                        "tracing_mode":  "isolated",
+                        "variant":  null
+                    }
+                ],
+    "pagination":  {
+                       "has_more":  false,
+                       "page":  1,
+                       "per_page":  50,
+                       "total":  2,
+                       "total_pages":  1
+                   }
+}

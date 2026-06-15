@@ -1,0 +1,3402 @@
+﻿[
+    {
+        "duration_ms":  null,
+        "event_id":  "run_start",
+        "event_type":  "run_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Starting automation: Black Myth: Wukong",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "iterations":  2,
+                         "sut_ip":  "192.168.0.108"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:27.431650"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "info_1",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Killed stale process from previous run: Benchmark",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:29.875156"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "info_2",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Killed stale process from previous run: Benchmark.exe",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:30.250507"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "info_3",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Capturing system inventory (System DNA)...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:33.272467"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "warn_4",
+        "event_type":  "warning",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "System DNA failed: Execution failed (exit -1): Executable not found: C:\\Program Files\\Intel Corporation\\Intel(R) System Scope Tool\\SystemScopeCmdLine.exe",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.302692"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/iteration_1",
+        "event_type":  "iteration_started",
+        "group":  "iteration",
+        "iteration":  "perf-run-1",
+        "message":  "Starting iteration 1/2 - Performance",
+        "metadata":  {
+                         "iteration_type":  "performance"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:38.313461"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/sut_connect",
+        "event_type":  "sut_connecting",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Connecting to SUT 192.168.0.108:8080...",
+        "metadata":  {
+                         "ip":  "192.168.0.108",
+                         "port":  8080
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:38.334584"
+    },
+    {
+        "duration_ms":  49,
+        "event_id":  "perf-run-1/sut_connected",
+        "event_type":  "sut_connected",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Connected to SUT 192.168.0.108:8080",
+        "metadata":  {
+                         "ip":  "192.168.0.108",
+                         "port":  8080
+                     },
+        "replaces_event_id":  "perf-run-1/sut_connect",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.384485"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/resolution",
+        "event_type":  "resolution_detecting",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Detecting screen resolution...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:38.384485"
+    },
+    {
+        "duration_ms":  5,
+        "event_id":  "perf-run-1/resolution_done",
+        "event_type":  "resolution_detected",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Resolution: 2560x1600",
+        "metadata":  {
+                         "height":  1600,
+                         "width":  2560
+                     },
+        "replaces_event_id":  "perf-run-1/resolution",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.389490"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/de2",
+        "event_type":  "de2_connecting",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Connecting to Dinosaur Eyes 2...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:38.389490"
+    },
+    {
+        "duration_ms":  1,
+        "event_id":  "perf-run-1/de2_done",
+        "event_type":  "de2_connected",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Dinosaur Eyes 2 connected",
+        "metadata":  {
+                         "url":  "http://localhost:9000"
+                     },
+        "replaces_event_id":  "perf-run-1/de2",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.390491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_5",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Steam login skipped (manual login mode)",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.390491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_6",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Found running b1, terminating...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:38.401510"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/preset",
+        "event_type":  "preset_syncing",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Syncing preset for Black Myth: Wukong...",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "parallel":  false,
+                         "preset":  null
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:38.616057"
+    },
+    {
+        "duration_ms":  3551,
+        "event_id":  "perf-run-1/preset_done",
+        "event_type":  "preset_synced",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Preset applied for Black Myth: Wukong (high-1080p)",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "preset":  "high-1080p"
+                     },
+        "replaces_event_id":  "perf-run-1/preset",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:42.167590"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_7",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Changing resolution from 2560x1600 to 1920x1080",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:42.167590"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_8",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Resolution changed to 1920x1080",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:38:43.488967"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/apo_mode_applied",
+        "event_type":  "apo_mode_applied",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "APO hw-only VERIFY-FAILED (unreachable) for b1.exe — continuing run anyway",
+        "metadata":  {
+                         "apply_error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/apply",
+                         "drift_class":  "unreachable",
+                         "exe":  "b1.exe",
+                         "observed":  {
+                                          "error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/state?exe=b1.exe"
+                                      },
+                         "predicate_passed":  false,
+                         "requested":  "hw-only"
+                     },
+        "replaces_event_id":  null,
+        "status":  "failed",
+        "timestamp":  "2026-06-16T00:38:52.626643"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/apo_drift_detected",
+        "event_type":  "apo_drift_detected",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "APO drift: requested hw-only, observed unreachable",
+        "metadata":  {
+                         "drift_class":  "unreachable",
+                         "exe":  "b1.exe",
+                         "observed":  {
+                                          "error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/state?exe=b1.exe"
+                                      },
+                         "requested":  "hw-only"
+                     },
+        "replaces_event_id":  null,
+        "status":  "failed",
+        "timestamp":  "2026-06-16T00:38:52.626643"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/game_launch",
+        "event_type":  "game_launching",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Launching Black Myth: Wukong (3132990)...",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "launch_method":  "steam",
+                         "path":  "3132990",
+                         "steam_app_id":  "3132990"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:38:52.626643"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/game_handoff_1781550549965",
+        "event_type":  "game_handoff_to_agent",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Game Black Myth: Wukong launch fired (process=b1, pid=unknown); agent taking over.",
+        "metadata":  {
+                         "game_name":  "Black Myth: Wukong",
+                         "pid":  null,
+                         "process_id":  "b1"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:09.965828"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/game_ready",
+        "event_type":  "game_ready",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Game ready",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  "perf-run-1/game_init",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:09.967331"
+    },
+    {
+        "duration_ms":  17340,
+        "event_id":  "perf-run-1/game_launched",
+        "event_type":  "game_launched",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Game launched",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "pid":  null
+                     },
+        "replaces_event_id":  "perf-run-1/game_launch",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:09.967331"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_9",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Starting agentic automation (max 80 ticks)",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:09.986885"
+    },
+    {
+        "duration_ms":  25471,
+        "event_id":  "perf-run-1/tick_1",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 1/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  2588,
+                         "latency_ms":  6157.4,
+                         "output_tokens":  240,
+                         "reasoning":  "The user is in Phase 1/6: launch_handoff for Black Myth: Wukong.\nThe goal is to wait for the game\u0027s interactive UI to appear and report the `launch_visible` checkpoint.\nThe current screenshot shows a black screen with a Windows notification popup: \"Notification Suggestions\" from VNC Server.\nAccordin",
+                         "tick":  1,
+                         "tokens":  2828,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  1807,
+                                                             "y":  986
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:12.302073"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_10",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:25.598766"
+    },
+    {
+        "duration_ms":  5273,
+        "event_id":  "perf-run-1/svc_10_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_10 completed",
+        "metadata":  {
+                         "duration_ms":  5273,
+                         "response_summary":  "7 elements, 2.9s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_10",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:30.871891"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_1",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 1: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  497172,
+                                        "token_used_pct":  0.57
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  1,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  2828
+                                        },
+                         "tick":  1,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  2588,
+                                           "latency_ms":  6157.4,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  240,
+                                           "output_tokens_per_sec":  39.0,
+                                           "response_id":  "chatcmpl-bf245ba77c83c73e",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  2588
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:37.283867"
+    },
+    {
+        "duration_ms":  8496,
+        "event_id":  "perf-run-1/tick_2",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 2/80: report_checkpoint",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  3035,
+                         "latency_ms":  3855.9,
+                         "output_tokens":  83,
+                         "reasoning":  "The game has launched and the splash/title screen is visible (\"BLACK MYTH WUKONG\").\nAccording to Phase 1/6 instructions, when the first interactive UI (splash screen, title screen, etc.) is visible, I should call `report_checkpoint(name=\"launch_visible\")`.",
+                         "tick":  2,
+                         "tokens":  3118,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "name":  "launch_visible"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:41.775463"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_11",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:42.431598"
+    },
+    {
+        "duration_ms":  3668,
+        "event_id":  "perf-run-1/svc_11_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_11 completed",
+        "metadata":  {
+                         "duration_ms":  3667,
+                         "response_summary":  "2 elements, 1.2s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_11",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:46.100020"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_2",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 2: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  494054,
+                                        "token_used_pct":  1.19
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  2,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  5946
+                                        },
+                         "tick":  2,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  3035,
+                                           "latency_ms":  3855.9,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  83,
+                                           "output_tokens_per_sec":  21.5,
+                                           "response_id":  "chatcmpl-b69a69a7fcd16d92",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  3035
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:50.270505"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/checkpoint_launch_visible",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Checkpoint reached: launch_visible",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:50.271506"
+    },
+    {
+        "duration_ms":  7376,
+        "event_id":  "perf-run-1/tick_3",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 3/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  2752,
+                         "latency_ms":  4594.0,
+                         "output_tokens":  168,
+                         "reasoning":  "The user is currently on a splash screen for \"Black Myth: Wukong\".\nAccording to the Game Instructions for Phase 2/6 (pre_launch):\n- \"Click anywhere on the screen to dismiss the splash.\"\n- \"Prefer an element from the detected list... if nothing is interactive, click center: click(960, 540).\"\n\nThe det",
+                         "tick":  3,
+                         "tokens":  2920,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  960,
+                                                             "y":  540
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:50.272644"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_12",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:50.717496"
+    },
+    {
+        "duration_ms":  1486,
+        "event_id":  "perf-run-1/svc_12_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_12 completed",
+        "metadata":  {
+                         "duration_ms":  1486,
+                         "response_summary":  "2 elements, 1.0s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_12",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:39:52.204065"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_3",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 3: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  491134,
+                                        "token_used_pct":  1.77
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  3,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  8866
+                                        },
+                         "tick":  3,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  2752,
+                                           "latency_ms":  4594.0,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  168,
+                                           "output_tokens_per_sec":  36.6,
+                                           "response_id":  "chatcmpl-b1fe99d351e92217",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  2752
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:39:57.157133"
+    },
+    {
+        "duration_ms":  13743,
+        "event_id":  "perf-run-1/tick_4",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 4/80: report_checkpoint, click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  3436,
+                         "latency_ms":  7118.8,
+                         "output_tokens":  217,
+                         "reasoning":  "The user is at the main menu of \"Black Myth: Wukong\".\nThe screen shows the following options:\n- Benchmark\n- Settings\n- Purchase Now\n- Exit\n\nAccording to the instructions:\n\"When the main menu is visible (Benchmark / Start Game / Continue / Exit, with Sun Wukong artwork in the background), call report",
+                         "tick":  4,
+                         "tokens":  3653,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "name":  "main_menu"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "x":  152,
+                                                             "y":  484
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:01.651894"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_13",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:02.350256"
+    },
+    {
+        "duration_ms":  4960,
+        "event_id":  "perf-run-1/svc_13_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_13 completed",
+        "metadata":  {
+                         "duration_ms":  4960,
+                         "response_summary":  "7 elements, 2.4s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_13",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:07.310431"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_4",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 4: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  487481,
+                                        "token_used_pct":  2.5
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  4,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  12519
+                                        },
+                         "tick":  4,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  3436,
+                                           "latency_ms":  7118.8,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  217,
+                                           "output_tokens_per_sec":  30.5,
+                                           "response_id":  "chatcmpl-b8c847adddd8f957",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  3436
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:14.898433"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/checkpoint_main_menu",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Checkpoint reached: main_menu",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:15.395350"
+    },
+    {
+        "duration_ms":  9418,
+        "event_id":  "perf-run-1/tick_5",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 5/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  4363,
+                         "latency_ms":  4397.3,
+                         "output_tokens":  68,
+                         "reasoning":  "The user is on the confirmation dialog for the benchmark.\nI need to click \"Confirm\" to start the benchmark.\nThe \"Confirm\" element is #2 at click(755, 635).",
+                         "tick":  5,
+                         "tokens":  4431,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  755,
+                                                             "y":  635
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:19.398066"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_14",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:19.866464"
+    },
+    {
+        "duration_ms":  3749,
+        "event_id":  "perf-run-1/svc_14_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_14 completed",
+        "metadata":  {
+                         "duration_ms":  3749,
+                         "response_summary":  "9 elements, 1.4s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_14",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:23.616257"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_5",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 5: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  483050,
+                                        "token_used_pct":  3.39
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  5,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  16950
+                                        },
+                         "tick":  5,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  4363,
+                                           "latency_ms":  4397.3,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  68,
+                                           "output_tokens_per_sec":  15.5,
+                                           "response_id":  "chatcmpl-890ce69c3596eecc",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  4363
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:28.318892"
+    },
+    {
+        "duration_ms":  9118,
+        "event_id":  "perf-run-1/tick_6",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 6/80: report_checkpoint",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  4983,
+                         "latency_ms":  6319.8,
+                         "output_tokens":  162,
+                         "reasoning":  "The user clicked \"Confirm\" in Tick 5.\nIn Tick 6, the screen is black (a dark loading screen).\nAccording to the instructions for Phase 3/6:\n\"The very NEXT tick after clicking Confirm will show ONE of: (a) a black / dark loading screen (no UI), OR (b) early in-engine footage... For (a) and (b): in the",
+                         "tick":  6,
+                         "tokens":  5145,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "name":  "benchmark_running"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:32.819264"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_15",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:32.848298"
+    },
+    {
+        "duration_ms":  2463,
+        "event_id":  "perf-run-1/svc_15_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_15 completed",
+        "metadata":  {
+                         "duration_ms":  2463,
+                         "response_summary":  "1 elements, 0.2s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_15",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:40:35.312122"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_6",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 6: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  477905,
+                                        "token_used_pct":  4.42
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  6,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  22095
+                                        },
+                         "tick":  6,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  4983,
+                                           "latency_ms":  6319.8,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  162,
+                                           "output_tokens_per_sec":  25.6,
+                                           "response_id":  "chatcmpl-b5f1549ec410c973",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  4983
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:41.937580"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/checkpoint_benchmark_running",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Checkpoint reached: benchmark_running",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:41.937580"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/benchmark_sleep_7",
+        "event_type":  "benchmark_sleeping",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Sleeping 157s for benchmark execution",
+        "metadata":  {
+                         "duration_seconds":  157
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:40:41.938896"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/benchmark_wake_7",
+        "event_type":  "benchmark_sleep_done",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Benchmark sleep complete after 157s",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:43:18.987368"
+    },
+    {
+        "duration_ms":  14941,
+        "event_id":  "perf-run-1/tick_8",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 8/80: screenshot_result, report_checkpoint, press_key",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  5825,
+                         "latency_ms":  9284.9,
+                         "output_tokens":  262,
+                         "reasoning":  "The current screen is the \"Benchmark Results\" panel for Black Myth: Wukong.\nI can see:\n- Average FPS: 59\n- Maximum FPS: 68\n- Minimum FPS: 43\n- Low 5th: 54\n- Total VRAM Used: 4 GB\n- System info (CPU, GPU, etc.)\n- Graphic settings (Borderless, 1920x1080, High preset, etc.)\n- A frame graph at the botto",
+                         "tick":  8,
+                         "tokens":  6087,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "description":  "Black Myth Wukong benchmark results -- all visible metrics"
+                                                         },
+                                                "name":  "screenshot_result"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "name":  "results_screen"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "key":  "escape"
+                                                         },
+                                                "name":  "press_key"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:43:19.006086"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_16",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:43:19.668035"
+    },
+    {
+        "duration_ms":  4355,
+        "event_id":  "perf-run-1/svc_16_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_16 completed",
+        "metadata":  {
+                         "duration_ms":  4355,
+                         "response_summary":  "26 elements, 1.9s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_16",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:43:24.023899"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_8",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 8: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  471818,
+                                        "token_used_pct":  5.64
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  7,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  28182
+                                        },
+                         "tick":  8,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  5825,
+                                           "latency_ms":  9284.9,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  262,
+                                           "output_tokens_per_sec":  28.2,
+                                           "response_id":  "chatcmpl-9349edb2ba4f738c",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  5825
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:43:33.838480"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/checkpoint_results_screen",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Checkpoint reached: results_screen",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:43:33.947948"
+    },
+    {
+        "duration_ms":  29166,
+        "event_id":  "perf-run-1/tick_9",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 9/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6261,
+                         "latency_ms":  23194.8,
+                         "output_tokens":  888,
+                         "reasoning":  "The user is in Phase 6/6: game_exit.\nThe screen currently shows \"Are you sure you want to exit the benchmark?\" with a \"Confirm\" and \"Cancel\" option.\nAccording to the step-by-step instructions:\n1. Click \"Confirm\" on the exit-benchmark dialog.\n\nLooking at the detected UI elements:\n#8 is \"Confirm Cance",
+                         "tick":  9,
+                         "tokens":  7149,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  750,
+                                                             "y":  799
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:43:37.966115"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_17",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:43:38.353434"
+    },
+    {
+        "duration_ms":  4763,
+        "event_id":  "perf-run-1/svc_17_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_17 completed",
+        "metadata":  {
+                         "duration_ms":  4763,
+                         "response_summary":  "14 elements, 2.4s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_17",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:43:43.117322"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_9",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 9: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  464669,
+                                        "token_used_pct":  7.07
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  8,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  35331
+                                        },
+                         "tick":  9,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6261,
+                                           "latency_ms":  23194.8,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  888,
+                                           "output_tokens_per_sec":  38.3,
+                                           "response_id":  "chatcmpl-a3daafed1f100e47",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6261
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:06.635582"
+    },
+    {
+        "duration_ms":  26343,
+        "event_id":  "perf-run-1/tick_10",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 10/80: press_key",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6723,
+                         "latency_ms":  21996.1,
+                         "output_tokens":  857,
+                         "reasoning":  "The user is in Phase 6/6: game_exit.\nIn Tick 9, the agent attempted to click the \"Confirm\" button on the \"Are you sure you want to exit the benchmark?\" dialog.\nThe coordinates used were (750, 799) from element #8 \"Confirm Cancel\".\nLooking at the image, the \"Confirm\" button is on the left of the \"Can",
+                         "tick":  10,
+                         "tokens":  7580,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "key":  "enter"
+                                                         },
+                                                "name":  "press_key"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:44:11.147774"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_18",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:11.508743"
+    },
+    {
+        "duration_ms":  3536,
+        "event_id":  "perf-run-1/svc_18_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_18 completed",
+        "metadata":  {
+                         "duration_ms":  3536,
+                         "response_summary":  "14 elements, 1.1s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_18",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:44:15.045045"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_10",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 10: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  457089,
+                                        "token_used_pct":  8.58
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  9,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  42911
+                                        },
+                         "tick":  10,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6723,
+                                           "latency_ms":  21996.1,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  857,
+                                           "output_tokens_per_sec":  39.0,
+                                           "response_id":  "chatcmpl-992b2f03979d5511",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6723
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:37.381809"
+    },
+    {
+        "duration_ms":  11206,
+        "event_id":  "perf-run-1/tick_11",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 11/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6604,
+                         "latency_ms":  7924.1,
+                         "output_tokens":  222,
+                         "reasoning":  "The user is in Phase 6/6: `game_exit`.\nCurrent state: The screen is black with a small decorative element at the bottom, which looks like a transition or splash screen after confirming the exit of the benchmark.\n\nAccording to the instructions for Phase 6/6:\n1. Click \"Confirm\" on the exit-benchmark d",
+                         "tick":  11,
+                         "tokens":  6826,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  960,
+                                                             "y":  540
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:44:41.507609"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_19",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:41.567793"
+    },
+    {
+        "duration_ms":  2462,
+        "event_id":  "perf-run-1/svc_19_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_19 completed",
+        "metadata":  {
+                         "duration_ms":  2462,
+                         "response_summary":  "1 elements, 0.2s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_19",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:44:44.030247"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_11",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 11: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  450263,
+                                        "token_used_pct":  9.95
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  10,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  49737
+                                        },
+                         "tick":  11,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6604,
+                                           "latency_ms":  7924.1,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  222,
+                                           "output_tokens_per_sec":  28.0,
+                                           "response_id":  "chatcmpl-9def86e382b91e85",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6604
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:52.224951"
+    },
+    {
+        "duration_ms":  10810,
+        "event_id":  "perf-run-1/tick_12",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 12/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6563,
+                         "latency_ms":  5645.3,
+                         "output_tokens":  110,
+                         "reasoning":  "The user is in Phase 6/6: game_exit.\nCurrent state: Main Menu is visible.\nGoal: Click \"Exit\" on the main menu to quit the game.\nDetected UI Elements:\n- \"Exit\" (icon [interactive]) -\u003e click(111, 653)\n\nPlan:\n1. Click \"Exit\" at (111, 653).",
+                         "tick":  12,
+                         "tokens":  6673,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  111,
+                                                             "y":  653
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:44:56.728305"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_20",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:44:57.362001"
+    },
+    {
+        "duration_ms":  3692,
+        "event_id":  "perf-run-1/svc_20_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_20 completed",
+        "metadata":  {
+                         "duration_ms":  3692,
+                         "response_summary":  "5 elements, 1.2s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_20",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:01.054820"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_12",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 12: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  443590,
+                                        "token_used_pct":  11.28
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  11,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  56410
+                                        },
+                         "tick":  12,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6563,
+                                           "latency_ms":  5645.3,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  110,
+                                           "output_tokens_per_sec":  19.5,
+                                           "response_id":  "chatcmpl-805a7f768fd7277a",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6563
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:07.042456"
+    },
+    {
+        "duration_ms":  11483,
+        "event_id":  "perf-run-1/tick_13",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 13/80: press_key",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6742,
+                         "latency_ms":  6884.6,
+                         "output_tokens":  168,
+                         "reasoning":  "The user wants to exit the game.\nI am currently at the \"quit to desktop\" confirmation dialog.\nThe \"Confirm\" button is at coordinates (755, 635).\nAccording to the game instructions: \"4. A \u0027quit to desktop\u0027 confirm dialog appears. Press Return to confirm.\"\nI can either click the \"Confirm\" button or pr",
+                         "tick":  13,
+                         "tokens":  6910,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "key":  "Return"
+                                                         },
+                                                "name":  "press_key"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:11.554044"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_21",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:11.984990"
+    },
+    {
+        "duration_ms":  3707,
+        "event_id":  "perf-run-1/svc_21_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_21 completed",
+        "metadata":  {
+                         "duration_ms":  3707,
+                         "response_summary":  "7 elements, 1.3s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_21",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:15.692278"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_13",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 13: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  436680,
+                                        "token_used_pct":  12.66
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  12,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  63320
+                                        },
+                         "tick":  13,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6742,
+                                           "latency_ms":  6884.6,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  168,
+                                           "output_tokens_per_sec":  24.4,
+                                           "response_id":  "chatcmpl-bfdad34aeee5245a",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6742
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:22.931090"
+    },
+    {
+        "duration_ms":  17248,
+        "event_id":  "perf-run-1/tick_14",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 14/80: report_complete",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  7307,
+                         "latency_ms":  7065.9,
+                         "output_tokens":  166,
+                         "reasoning":  "The user is in Phase 6/6: game_exit.\nRecent history:\nTick 12: Clicked \"Exit\" on the main menu.\nTick 13: Pressed \u0027Return\u0027 to confirm \"quit to desktop\".\nTick 14: The screenshot shows the Windows desktop (a file explorer window is open, and the taskbar is visible).\n\nAccording to the \"Belt-and-braces\" i",
+                         "tick":  14,
+                         "tokens":  7473,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "summary":  "benchmark captured, game quit cleanly"
+                                                         },
+                                                "name":  "report_complete"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:27.048511"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/svc_22",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:27.101567"
+    },
+    {
+        "duration_ms":  9845,
+        "event_id":  "perf-run-1/svc_22_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-1",
+        "message":  "Service call svc_22 completed",
+        "metadata":  {
+                         "duration_ms":  9845,
+                         "response_summary":  "112 elements, 7.6s parse"
+                     },
+        "replaces_event_id":  "perf-run-1/svc_22",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:36.947226"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_14",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Tick 14: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  429207,
+                                        "token_used_pct":  14.16
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  13,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  70793
+                                        },
+                         "tick":  14,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  7307,
+                                           "latency_ms":  7065.9,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  166,
+                                           "output_tokens_per_sec":  23.5,
+                                           "response_id":  "chatcmpl-95fc31a382c331cd",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  7307
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:44.295813"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/cost_summary",
+        "event_type":  "agent_cost_summary",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Total: $0.0000 (13 ticks)",
+        "metadata":  {
+                         "api_ticks":  13,
+                         "avg_per_tick":  {
+                                              "cost_usd":  0.0,
+                                              "input_tokens":  5167.8,
+                                              "output_tokens":  277.8
+                                          },
+                         "cache_hit_rate":  0.0,
+                         "cost_by_type":  {
+                                              "cache_create":  0.0,
+                                              "cache_read":  0.0,
+                                              "input":  0.0,
+                                              "output":  0.0
+                                          },
+                         "latency":  {
+                                         "avg_ms":  8803.0,
+                                         "max_ms":  23194.8,
+                                         "min_ms":  3855.9,
+                                         "p95_ms":  21996.1
+                                     },
+                         "model":  "gemma4-31b",
+                         "pricing_per_mtok":  {
+                                                  "cache_create":  0.0,
+                                                  "cache_create_1h":  0.0,
+                                                  "cache_read":  0.0,
+                                                  "input":  0.0,
+                                                  "output":  0.0
+                                              },
+                         "throughput":  {
+                                            "avg_output_tps":  28.4,
+                                            "max_output_tps":  39.0,
+                                            "min_output_tps":  15.5
+                                        },
+                         "ticks":  13,
+                         "total_cache_create_tokens":  0,
+                         "total_cache_read_tokens":  0,
+                         "total_cache_savings_usd":  0.0,
+                         "total_cost_usd":  0.0,
+                         "total_input_tokens":  67182,
+                         "total_output_tokens":  3611,
+                         "total_tokens":  70793
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:45:44.297816"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_23",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Agentic automation completed (14 ticks, $0.000)",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:44.298815"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_24",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Automation completed successfully",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:44.298815"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-1/info_25",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-1",
+        "message":  "Benchmark score: 59.0 avg FPS",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:45:59.798579"
+    },
+    {
+        "duration_ms":  441850,
+        "event_id":  "perf-run-1/iteration_1_done",
+        "event_type":  "iteration_completed",
+        "group":  "iteration",
+        "iteration":  "perf-run-1",
+        "message":  "Iteration 1 completed",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  "perf-run-1/iteration_1",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:46:00.163771"
+    },
+    {
+        "duration_ms":  120028,
+        "event_id":  "cooldown/cooldown",
+        "event_type":  "cooldown_started",
+        "group":  null,
+        "iteration":  "cooldown",
+        "message":  "Cooldown complete (120s)",
+        "metadata":  {
+                         "actual_duration":  120.0285713672638,
+                         "countdown":  120,
+                         "duration_seconds":  120
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:46:00.164771"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/iteration_2",
+        "event_type":  "iteration_started",
+        "group":  "iteration",
+        "iteration":  "perf-run-2",
+        "message":  "Starting iteration 2/2 - Performance",
+        "metadata":  {
+                         "iteration_type":  "performance"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:00.193343"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/sut_connect",
+        "event_type":  "sut_connecting",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Connecting to SUT 192.168.0.108:8080...",
+        "metadata":  {
+                         "ip":  "192.168.0.108",
+                         "port":  8080
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:00.198985"
+    },
+    {
+        "duration_ms":  8,
+        "event_id":  "perf-run-2/sut_connected",
+        "event_type":  "sut_connected",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Connected to SUT 192.168.0.108:8080",
+        "metadata":  {
+                         "ip":  "192.168.0.108",
+                         "port":  8080
+                     },
+        "replaces_event_id":  "perf-run-2/sut_connect",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:00.207491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/resolution",
+        "event_type":  "resolution_detecting",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Detecting screen resolution...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:00.207491"
+    },
+    {
+        "duration_ms":  3,
+        "event_id":  "perf-run-2/resolution_done",
+        "event_type":  "resolution_detected",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Resolution: 1920x1080",
+        "metadata":  {
+                         "height":  1080,
+                         "width":  1920
+                     },
+        "replaces_event_id":  "perf-run-2/resolution",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:00.210491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/de2",
+        "event_type":  "de2_connecting",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Connecting to Dinosaur Eyes 2...",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:00.211491"
+    },
+    {
+        "duration_ms":  0,
+        "event_id":  "perf-run-2/de2_done",
+        "event_type":  "de2_connected",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Dinosaur Eyes 2 connected",
+        "metadata":  {
+                         "url":  "http://localhost:9000"
+                     },
+        "replaces_event_id":  "perf-run-2/de2",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:00.211491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/info_26",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Steam login skipped (manual login mode)",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:00.211491"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/preset",
+        "event_type":  "preset_syncing",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Syncing preset for Black Myth: Wukong...",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "parallel":  false,
+                         "preset":  null
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:00.218678"
+    },
+    {
+        "duration_ms":  3158,
+        "event_id":  "perf-run-2/preset_done",
+        "event_type":  "preset_synced",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Preset applied for Black Myth: Wukong (high-1080p)",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "preset":  "high-1080p"
+                     },
+        "replaces_event_id":  "perf-run-2/preset",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:03.377150"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/apo_mode_applied",
+        "event_type":  "apo_mode_applied",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "APO hw-only VERIFY-FAILED (unreachable) for b1.exe — continuing run anyway",
+        "metadata":  {
+                         "apply_error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/apply",
+                         "drift_class":  "unreachable",
+                         "exe":  "b1.exe",
+                         "observed":  {
+                                          "error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/state?exe=b1.exe"
+                                      },
+                         "predicate_passed":  false,
+                         "requested":  "hw-only"
+                     },
+        "replaces_event_id":  null,
+        "status":  "failed",
+        "timestamp":  "2026-06-16T00:48:15.431966"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/apo_drift_detected",
+        "event_type":  "apo_drift_detected",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "APO drift: requested hw-only, observed unreachable",
+        "metadata":  {
+                         "drift_class":  "unreachable",
+                         "exe":  "b1.exe",
+                         "observed":  {
+                                          "error":  "503 Server Error: SERVICE UNAVAILABLE for url: http://192.168.0.108:8080/apo/state?exe=b1.exe"
+                                      },
+                         "requested":  "hw-only"
+                     },
+        "replaces_event_id":  null,
+        "status":  "failed",
+        "timestamp":  "2026-06-16T00:48:15.431966"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/game_launch",
+        "event_type":  "game_launching",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Launching Black Myth: Wukong (3132990)...",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "launch_method":  "steam",
+                         "path":  "3132990",
+                         "steam_app_id":  "3132990"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:15.431966"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/game_handoff_1781551095496",
+        "event_type":  "game_handoff_to_agent",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Game Black Myth: Wukong launch fired (process=b1, pid=unknown); agent taking over.",
+        "metadata":  {
+                         "game_name":  "Black Myth: Wukong",
+                         "pid":  null,
+                         "process_id":  "b1"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:48:15.496045"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/game_ready",
+        "event_type":  "game_ready",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Game ready",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  "perf-run-2/game_init",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:15.497045"
+    },
+    {
+        "duration_ms":  65,
+        "event_id":  "perf-run-2/game_launched",
+        "event_type":  "game_launched",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Game launched",
+        "metadata":  {
+                         "game":  "Black Myth: Wukong",
+                         "pid":  null
+                     },
+        "replaces_event_id":  "perf-run-2/game_launch",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:15.497045"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/info_27",
+        "event_type":  "info",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Starting agentic automation (max 80 ticks)",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:15.507070"
+    },
+    {
+        "duration_ms":  59749,
+        "event_id":  "perf-run-2/tick_1",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 1/80: click, report_checkpoint",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  2473,
+                         "latency_ms":  5414.2,
+                         "output_tokens":  155,
+                         "reasoning":  "The user wants me to navigate Black Myth: Wukong to the results screen of its benchmark.\n\n**Phase 1: launch_handoff**\nThe current state is that I see the title screen with \"Press Any Button\".\nThe target for this phase is `launch_visible`.\nI can see an interactive UI element \"Press Any Button\" (eleme",
+                         "tick":  1,
+                         "tokens":  2628,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  347,
+                                                             "y":  686
+                                                         },
+                                                "name":  "click"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "name":  "launch_visible"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:48:20.684109"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_28",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:10.566456"
+    },
+    {
+        "duration_ms":  3623,
+        "event_id":  "perf-run-2/svc_28_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_28 completed",
+        "metadata":  {
+                         "duration_ms":  3623,
+                         "response_summary":  "3 elements, 1.0s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_28",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:14.190387"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_1",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 1: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  497372,
+                                        "token_used_pct":  0.53
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  1,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  2628
+                                        },
+                         "tick":  1,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  2473,
+                                           "latency_ms":  5414.2,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  155,
+                                           "output_tokens_per_sec":  28.6,
+                                           "response_id":  "chatcmpl-b0f42c6750392eb2",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  2473
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:19.933395"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/checkpoint_launch_visible",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Checkpoint reached: launch_visible",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:20.433834"
+    },
+    {
+        "duration_ms":  9280,
+        "event_id":  "perf-run-2/tick_2",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 2/80: click, report_checkpoint",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  2346,
+                         "latency_ms":  4558.3,
+                         "output_tokens":  98,
+                         "reasoning":  "The user is in the main menu of \"Black Myth: Wukong\".\nThe goal is to reach the results screen of the benchmark.\nI can see \"Benchmark\" in the detected UI elements.\nI should click \"Benchmark\" and report the `main_menu` checkpoint.",
+                         "tick":  2,
+                         "tokens":  2444,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  152,
+                                                             "y":  484
+                                                         },
+                                                "name":  "click"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "name":  "main_menu"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:24.436719"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_29",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:25.091291"
+    },
+    {
+        "duration_ms":  3207,
+        "event_id":  "perf-run-2/svc_29_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_29 completed",
+        "metadata":  {
+                         "duration_ms":  3207,
+                         "response_summary":  "7 elements, 0.5s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_29",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:28.298299"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_2",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 2: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  494928,
+                                        "token_used_pct":  1.01
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  2,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  5072
+                                        },
+                         "tick":  2,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  2346,
+                                           "latency_ms":  4558.3,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  98,
+                                           "output_tokens_per_sec":  21.5,
+                                           "response_id":  "chatcmpl-9db76a370133ccb6",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  2346
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:33.222264"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/checkpoint_main_menu",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Checkpoint reached: main_menu",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:33.716038"
+    },
+    {
+        "duration_ms":  10392,
+        "event_id":  "perf-run-2/tick_3",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 3/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  3144,
+                         "latency_ms":  5465.9,
+                         "output_tokens":  135,
+                         "reasoning":  "The user wants to start the benchmark.\nI am currently on the confirmation dialog \"Are you sure you want to run benchmark?\".\nAccording to the instructions:\n1. Click \"Benchmark\" (Done in previous tick).\n2. A confirm dialog appears -- click \"Confirm\" using EXACT element-list coords.\n\nLooking at the det",
+                         "tick":  3,
+                         "tokens":  3279,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  757,
+                                                             "y":  635
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:37.718962"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_30",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:38.136111"
+    },
+    {
+        "duration_ms":  3695,
+        "event_id":  "perf-run-2/svc_30_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_30 completed",
+        "metadata":  {
+                         "duration_ms":  3695,
+                         "response_summary":  "7 elements, 1.1s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_30",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:41.831314"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_3",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 3: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  491649,
+                                        "token_used_pct":  1.67
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  3,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  8351
+                                        },
+                         "tick":  3,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  3144,
+                                           "latency_ms":  5465.9,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  135,
+                                           "output_tokens_per_sec":  24.7,
+                                           "response_id":  "chatcmpl-9a2346909889b9bc",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  3144
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:47.617490"
+    },
+    {
+        "duration_ms":  7505,
+        "event_id":  "perf-run-2/tick_4",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 4/80: report_checkpoint",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  3681,
+                         "latency_ms":  4620.9,
+                         "output_tokens":  103,
+                         "reasoning":  "The user clicked \"Confirm\" in the previous tick.\nThe current screenshot is a black screen (loading screen), which matches case (a) in the instructions: \"a black / dark loading screen (no UI)\".\nAccording to the instructions for case (a): \"in the SAME response call report_checkpoint(name=\"benchmark_ru",
+                         "tick":  4,
+                         "tokens":  3784,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "name":  "benchmark_running"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:52.112847"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_31",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:52.200869"
+    },
+    {
+        "duration_ms":  2536,
+        "event_id":  "perf-run-2/svc_31_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_31 completed",
+        "metadata":  {
+                         "duration_ms":  2537,
+                         "response_summary":  "1 elements, 0.3s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_31",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:49:54.737387"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_4",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 4: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  487865,
+                                        "token_used_pct":  2.43
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  4,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  12135
+                                        },
+                         "tick":  4,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  3681,
+                                           "latency_ms":  4620.9,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  103,
+                                           "output_tokens_per_sec":  22.3,
+                                           "response_id":  "chatcmpl-a4a0e4c31c6af66c",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  3681
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:59.616561"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/checkpoint_benchmark_running",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Checkpoint reached: benchmark_running",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:59.618063"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/benchmark_sleep_5",
+        "event_type":  "benchmark_sleeping",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Sleeping 157s for benchmark execution",
+        "metadata":  {
+                         "duration_seconds":  157
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:49:59.619069"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/benchmark_wake_5",
+        "event_type":  "benchmark_sleep_done",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Benchmark sleep complete after 157s",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:52:36.656008"
+    },
+    {
+        "duration_ms":  17469,
+        "event_id":  "perf-run-2/tick_6",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 6/80: screenshot_result, report_checkpoint, press_key",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  5723,
+                         "latency_ms":  7124.7,
+                         "output_tokens":  196,
+                         "reasoning":  "The user is on the benchmark results screen of Black Myth: Wukong.\nI need to:\n1. Capture the result screenshot.\n2. Report the `results_screen` checkpoint.\n3. Press the `escape` key to open the exit dialog and reset the auto-quit timer.\n\nLooking at the screenshot, the results panel is clearly visible",
+                         "tick":  6,
+                         "tokens":  5919,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "description":  "Black Myth Wukong benchmark results -- all visible metrics"
+                                                         },
+                                                "name":  "screenshot_result"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "name":  "results_screen"
+                                                         },
+                                                "name":  "report_checkpoint"
+                                            },
+                                            {
+                                                "args":  {
+                                                             "key":  "escape"
+                                                         },
+                                                "name":  "press_key"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:52:36.679592"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_32",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:52:37.455576"
+    },
+    {
+        "duration_ms":  8921,
+        "event_id":  "perf-run-2/svc_32_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_32 completed",
+        "metadata":  {
+                         "duration_ms":  8921,
+                         "response_summary":  "51 elements, 6.3s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_32",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:52:46.377205"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_6",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 6: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  481946,
+                                        "token_used_pct":  3.61
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  5,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  18054
+                                        },
+                         "tick":  6,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  5723,
+                                           "latency_ms":  7124.7,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  196,
+                                           "output_tokens_per_sec":  27.5,
+                                           "response_id":  "chatcmpl-904a65bd18e86cfc",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  5723
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:52:54.039061"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/checkpoint_results_screen",
+        "event_type":  "checkpoint_reached",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Checkpoint reached: results_screen",
+        "metadata":  {
+
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:52:54.148361"
+    },
+    {
+        "duration_ms":  12694,
+        "event_id":  "perf-run-2/tick_7",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 7/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6594,
+                         "latency_ms":  7896.6,
+                         "output_tokens":  195,
+                         "reasoning":  "The user just pressed escape on the results panel.\nThe current screen shows a dialog: \"Are you sure you want to exit the benchmark?\" with \"Confirm\" and \"Cancel\" options.\nAccording to the Phase 6/6 instructions:\n1. Click \"Confirm\" on the exit-benchmark dialog.\n2. A splash / transition screen appears.",
+                         "tick":  7,
+                         "tokens":  6789,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  756,
+                                                             "y":  635
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:52:58.170015"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_33",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:52:58.614512"
+    },
+    {
+        "duration_ms":  3374,
+        "event_id":  "perf-run-2/svc_33_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_33 completed",
+        "metadata":  {
+                         "duration_ms":  3374,
+                         "response_summary":  "14 elements, 0.8s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_33",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:53:01.988577"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_7",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 7: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  475157,
+                                        "token_used_pct":  4.97
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  6,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  24843
+                                        },
+                         "tick":  7,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6594,
+                                           "latency_ms":  7896.6,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  195,
+                                           "output_tokens_per_sec":  24.7,
+                                           "response_id":  "chatcmpl-9a5895746f2142ef",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6594
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:10.367825"
+    },
+    {
+        "duration_ms":  10783,
+        "event_id":  "perf-run-2/tick_8",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 8/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6742,
+                         "latency_ms":  6735.7,
+                         "output_tokens":  165,
+                         "reasoning":  "The user clicked \"Confirm\" on the \"Are you sure you want to exit the benchmark?\" dialog.\nNow I am seeing a black splash screen.\nAccording to the game instructions for Phase 6 [game_exit]:\n\"2. A splash / transition screen appears. Click center click(960, 540) or any visible interactive element to rea",
+                         "tick":  8,
+                         "tokens":  6907,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  960,
+                                                             "y":  540
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:53:14.883035"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_34",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:14.944177"
+    },
+    {
+        "duration_ms":  2864,
+        "event_id":  "perf-run-2/svc_34_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_34 completed",
+        "metadata":  {
+                         "duration_ms":  2864,
+                         "response_summary":  "1 elements, 0.3s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_34",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:53:17.808583"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_8",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 8: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  468250,
+                                        "token_used_pct":  6.35
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  7,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  31750
+                                        },
+                         "tick":  8,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6742,
+                                           "latency_ms":  6735.7,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  165,
+                                           "output_tokens_per_sec":  24.5,
+                                           "response_id":  "chatcmpl-96c7dc0d120feb6e",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6742
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:25.170377"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/tick_9",
+        "event_type":  "agentic_tick_started",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 9/80: click",
+        "metadata":  {
+                         "cache_create_tokens":  0,
+                         "cache_read_tokens":  0,
+                         "cost_usd":  0.0,
+                         "input_tokens":  6810,
+                         "latency_ms":  5028.8,
+                         "output_tokens":  94,
+                         "reasoning":  "The user wants to exit the game.\nI am currently on the main menu.\nI see an \"Exit\" button in the detected UI elements.\nElement #2 is \"Exit\" with coordinates `click(111, 653)`.\n\nPlan:\n1. Click \"Exit\" to trigger the quit confirmation dialog.",
+                         "tick":  9,
+                         "tool_calls":  [
+                                            {
+                                                "args":  {
+                                                             "x":  111,
+                                                             "y":  653
+                                                         },
+                                                "name":  "click"
+                                            }
+                                        ],
+                         "total":  80
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:29.706516"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/svc_35",
+        "event_type":  "service_call_started",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "rpx_backend -\u003eomniparser_localhost:9000: POST /parse/",
+        "metadata":  {
+                         "endpoint":  "/parse/",
+                         "linked_event_id":  null,
+                         "method":  "POST",
+                         "source_service":  "rpx_backend",
+                         "target_service":  "omniparser_localhost:9000"
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:30.415632"
+    },
+    {
+        "duration_ms":  3267,
+        "event_id":  "perf-run-2/svc_35_done",
+        "event_type":  "service_call_completed",
+        "group":  "service_calls",
+        "iteration":  "perf-run-2",
+        "message":  "Service call svc_35 completed",
+        "metadata":  {
+                         "duration_ms":  3267,
+                         "response_summary":  "5 elements, 0.5s parse"
+                     },
+        "replaces_event_id":  "perf-run-2/svc_35",
+        "status":  "completed",
+        "timestamp":  "2026-06-16T00:53:33.682873"
+    },
+    {
+        "duration_ms":  null,
+        "event_id":  "perf-run-2/cost_9",
+        "event_type":  "agent_cost_update",
+        "group":  null,
+        "iteration":  "perf-run-2",
+        "message":  "Tick 9: $0.0000 (total: $0.0000)",
+        "metadata":  {
+                         "budget":  {
+                                        "burn_rate_usd_per_tick":  0.0,
+                                        "cost_limit_usd":  0.0,
+                                        "cost_remaining_usd":  0,
+                                        "cost_used_pct":  0,
+                                        "estimated_ticks_until_budget":  0,
+                                        "token_budget":  500000,
+                                        "token_remaining":  461346,
+                                        "token_used_pct":  7.73
+                                    },
+                         "cumulative":  {
+                                            "avg_cost_per_tick":  0.0,
+                                            "cache_hit_rate":  0.0,
+                                            "ticks_so_far":  8,
+                                            "total_cache_savings_usd":  0.0,
+                                            "total_cost_usd":  0.0,
+                                            "total_tokens":  38654
+                                        },
+                         "tick":  9,
+                         "tick_cost":  {
+                                           "cache_create_tokens":  0,
+                                           "cache_hit_rate":  0.0,
+                                           "cache_read_tokens":  0,
+                                           "cache_savings_usd":  0.0,
+                                           "cost_cache_create":  0.0,
+                                           "cost_cache_read":  0.0,
+                                           "cost_input":  0.0,
+                                           "cost_output":  0.0,
+                                           "cost_usd":  0.0,
+                                           "input_tokens":  6810,
+                                           "latency_ms":  5028.8,
+                                           "model_id":  "gemma4-31b",
+                                           "output_tokens":  94,
+                                           "output_tokens_per_sec":  18.7,
+                                           "response_id":  "chatcmpl-8d415789dc4cf21c",
+                                           "stop_reason":  "tool_use",
+                                           "total_input_tokens":  6810
+                                       }
+                     },
+        "replaces_event_id":  null,
+        "status":  "in_progress",
+        "timestamp":  "2026-06-16T00:53:39.233926"
+    }
+]
