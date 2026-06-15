@@ -112,4 +112,5 @@ dependencies {
     implementation(libs.kotlinx.coroutines.guava)
 
     implementation("io.socket:socket.io-client:2.1.1") { exclude(group = "org.json", module = "json") }
+    implementation("io.coil-kt:coil-compose:2.7.0")
 }

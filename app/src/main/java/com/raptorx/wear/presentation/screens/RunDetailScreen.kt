@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -20,6 +21,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -35,6 +38,8 @@ import com.raptorx.wear.data.RunStatus
 import com.raptorx.wear.data.TimelineEvent
 import com.raptorx.wear.presentation.RpxViewModel
 import com.raptorx.wear.presentation.RunDetailState
+import coil.compose.AsyncImage
+import java.net.URLEncoder
 
 @Composable
 fun RunDetailScreen(viewModel: RpxViewModel) {
@@ -47,6 +52,8 @@ fun RunDetailScreen(viewModel: RpxViewModel) {
 
     val listState = rememberScalingLazyListState()
     ScreenScaffold(scrollState = listState, timeText = { TimeText() }) {
+        Box(modifier = Modifier.fillMaxSize()) {
+        HeroBackground(masterUrl = state.masterUrl, gameName = detail?.run?.gameName)
         ScalingLazyColumn(
             modifier = Modifier.fillMaxWidth(),
             state = listState,
@@ -82,7 +89,29 @@ fun RunDetailScreen(viewModel: RpxViewModel) {
                 }
             }
         }
+        }
     }
+}
+
+private fun gameImageUrl(masterUrl: String, gameName: String, kind: String = "hero"): String =
+    "${masterUrl.trimEnd('/')}/api/games/${URLEncoder.encode(gameName, "UTF-8").replace("+", "%20")}/image?kind=$kind"
+
+/** Dimmed Steam/local hero art behind the run detail, mirroring the Chamber background. */
+@Composable
+private fun HeroBackground(masterUrl: String?, gameName: String?) {
+    if (masterUrl.isNullOrBlank() || gameName.isNullOrBlank()) return
+    AsyncImage(
+        model = gameImageUrl(masterUrl, gameName, "hero"),
+        contentDescription = null,
+        modifier = Modifier.fillMaxSize(),
+        contentScale = ContentScale.Crop,
+        alpha = 0.32f,
+    )
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black.copy(alpha = 0.45f)),
+    )
 }
 
 @Composable
